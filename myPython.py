@@ -11,3 +11,10 @@ for Tuple in zip(cities, states, countries):
     print(Tuple)
     # print(f'{city}, {state}, {country}')
 print(type(Tuple))
+
+
+for city in enumerate(cities):
+    print(city)
+
+for Tuple in enumerate(zip(cities, states, countries)):
+    print(Tuple)
